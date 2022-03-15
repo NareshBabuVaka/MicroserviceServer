@@ -1,0 +1,15 @@
+spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+spring.datasource.url=jdbc:sqlserver://localhost\\BHAVNAWKS724;databaseName=Employee;portNumber=1433
+
+spring.datasource.username=sa
+
+spring.datasource.password=Bhavna@123
+
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.SQLServerDialect
+
+spring.jpa.hibernate.ddl-auto= update
+
+
+
+domain=@bhavnacorp.com
